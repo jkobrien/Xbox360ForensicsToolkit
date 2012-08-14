@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLKsFATXLib.API" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAIAQAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Drive" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAEIABABAAIAAAAEBAAIRCgAAMAAAAAJBAAQEABJE=</HashCode>
+      <FileName>FATX\Drive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Entry" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAQBAAAAAAAAAIAAAQAQBSABgAAgAAAgAAgAQAAhAA=</HashCode>
+      <FileName>FATX\EntryTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.File" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAQAAAGQE4AIABAAAJBAGAgEEAAEADAAAEAJAiAA=</HashCode>
+      <FileName>FATX\EntryTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Folder" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgBBBAgIIgYEAAkAAQAAQAAAMEAAAISACkAAAAAIA=</HashCode>
+      <FileName>FATX\EntryTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.PartitionFunctions" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQCEAgMEBAIAEAAIAQAADAAwMAAYAAAACAEgAAAABA=</HashCode>
+      <FileName>FATX\PartitionFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.EntryFunctions" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAACQAIQAAAgAAAAAAAQAgAABAAAAA=</HashCode>
+      <FileName>FATX\PartitionFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.StartHere">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\StreamsAndStuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.VariousFunctions" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAGEDAAADUMAAEEAAIAAIAAADAAAAEAADAAEAAAIgAA=</HashCode>
+      <FileName>FATX\VariousFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Extensions.Extensions" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAQAAAACECAAEAACAAAIAAACAAQAAAAAACCAAAAAAA=</HashCode>
+      <FileName>FATX\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Extensions.ListViewItemComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>FATX\Extensions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLKsFATXLib.Extensions.MenuItemComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>FATX\Extensions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLKsFATXLib.Geometry.I_Sell_Cocaine_and_Cocaine_Accessories" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Streams.Writer" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\StreamsAndStuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Streams.Reader" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAIAAAAAAAAAAAAABAARAACAAAA=</HashCode>
+      <FileName>FATX\StreamsAndStuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Streams.USBStream" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAgGACAAABgAAAAAAAAAAAAAAGIACA=</HashCode>
+      <FileName>FATX\StreamsAndStuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLKsFATXLib.Streams.FATXFileStream" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAASAAgGAAgAABoAAAQAkCgAAAABAGIAig=</HashCode>
+      <FileName>FATX\StreamsAndStuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CLKsFATXLib.Structs.EntryData" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQBBAAAAAAgAIQAAAABAQAAgAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.STFSInfo" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAAAAAABAAAAAAAAAEAAAAAEAIAgAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.PartitionInfo" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAEEAAIgAAAIAQAABQAAEAAAAAAACAAAAAAgAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.ExistingEntry" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.FreeEntry" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.CachedTitleName" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.FileAction" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.FolderAction" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAgAACAAAQ=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CLKsFATXLib.Structs.EntryEventArgs" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAIABAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="CLKsFATXLib.DriveType" Collapsed="true">
+    <Position X="7" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>FATX\Drive.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.STFSOffsets" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAgAEAAAAAAAAAAABAAAAAAAAAEAIAAAEgAAgAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.USBOffsets" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEAAAAAIAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.USBPartitionSizes" Collapsed="true">
+    <Position X="7" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEAAAAAAAAAAAAAAAAQACAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.NANDOffsets" Collapsed="true">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.Flags" Collapsed="true">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAAkAAAAAAAAAAAAAIIAAEEAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.EntryOffsets" Collapsed="true">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQBBAAAAAAgAAQAAAABAAAAgAAAAAAAAAEgABAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.HDDLengths" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAIBAABAAAAAAAAAAQACAAAEAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.DevOffsets" Collapsed="true">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLKsFATXLib.Geometry.HDDOffsets" Collapsed="true">
+    <Position X="7" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAICAABAAAAAAIAAARACAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Offsets and Such.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CLKsFATXLib.Structs.FileActionChanged" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="CLKsFATXLib.Structs.FolderActionChanged" Collapsed="true">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="CLKsFATXLib.Structs.OnEntryEvent" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>FATX\Structs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

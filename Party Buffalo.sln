@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party Buffalo", "Party Buffalo\Party Buffalo.csproj", "{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLKsFATXLib", "CLKsFATXLib\CLKsFATXLib.csproj", "{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

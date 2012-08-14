@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B39AF6ED-23D8-4F60-9DA3-D3B38F0E0D2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Party_Buffalo</RootNamespace>
+    <AssemblyName>Party Buffalo</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Main Icon.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\OLD\Windows API Code Pack 1.1\source\Samples\Shell\DragAndDrop\CS\WPF\ShellObjectDragAndDrop\bin\Debug\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\OLD\Windows API Code Pack 1.1\source\Samples\Shell\DragAndDrop\CS\WPF\ShellObjectDragAndDrop\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bookmarks.cs" />
+    <Compile Include="Forms\FileDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FileDetailsForm.Designer.cs">
+      <DependentUpon>FileDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ForensicReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ForensicReport.Designer.cs">
+      <DependentUpon>ForensicReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DiassembleFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintHexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintHexForm.Designer.cs">
+      <DependentUpon>PrintHexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Queue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Queue.Designer.cs">
+      <DependentUpon>Queue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LatestNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LatestNews.Designer.cs">
+      <DependentUpon>LatestNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Static Functions.cs" />
+    <Compile Include="Extensions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AddLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddLabel.Designer.cs">
+      <DependentUpon>AddLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BookmarkCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookmarkCreate.designer.cs">
+      <DependentUpon>BookmarkCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cache.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cache.designer.cs">
+      <DependentUpon>Cache.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clone.Designer.cs">
+      <DependentUpon>Clone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\DriveExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\DriveExplorer.Designer.cs">
+      <DependentUpon>DriveExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls\PartitionGeometry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls\PartitionGeometry.Designer.cs">
+      <DependentUpon>PartitionGeometry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomBackup.designer.cs">
+      <DependentUpon>CustomBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomBackupViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomBackupViewer.designer.cs">
+      <DependentUpon>CustomBackupViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeviceSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceSelector.designer.cs">
+      <DependentUpon>DeviceSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EntryAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EntryAction.Designer.cs">
+      <DependentUpon>EntryAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Existing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Existing.Designer.cs">
+      <DependentUpon>Existing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FolderSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FolderSelector.Designer.cs">
+      <DependentUpon>FolderSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InjectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InjectDialog.designer.cs">
+      <DependentUpon>InjectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewKnownFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewKnownFolder.designer.cs">
+      <DependentUpon>NewKnownFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DriveProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DriveProperties.designer.cs">
+      <DependentUpon>DriveProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertiesForm.designer.cs">
+      <DependentUpon>PropertiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchForm.designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateDownloadForm.designer.cs">
+      <DependentUpon>UpdateDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateForm.designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListviewStuff.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wxPirs\WxReader.cs" />
+    <EmbeddedResource Include="Forms\AddLabel.resx">
+      <DependentUpon>AddLabel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkCreate.resx">
+      <DependentUpon>BookmarkCreate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cache.resx">
+      <DependentUpon>Cache.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clone.resx">
+      <DependentUpon>Clone.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\DriveExplorer.resx">
+      <DependentUpon>DriveExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls\PartitionGeometry.resx">
+      <DependentUpon>PartitionGeometry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomBackup.resx">
+      <DependentUpon>CustomBackup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomBackupViewer.resx">
+      <DependentUpon>CustomBackupViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeviceSelector.resx">
+      <DependentUpon>DeviceSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DiassembleFile.resx">
+      <DependentUpon>DiassembleFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EntryAction.resx">
+      <DependentUpon>EntryAction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Existing.resx">
+      <DependentUpon>Existing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FileDetailsForm.resx">
+      <DependentUpon>FileDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FolderSelector.resx">
+      <DependentUpon>FolderSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ForensicReport.resx">
+      <DependentUpon>ForensicReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InjectDialog.resx">
+      <DependentUpon>InjectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintHexForm.resx">
+      <DependentUpon>PrintHexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Queue.resx">
+      <DependentUpon>Queue.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LatestNews.resx">
+      <DependentUpon>LatestNews.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewKnownFolder.resx">
+      <DependentUpon>NewKnownFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DriveProperties.resx">
+      <DependentUpon>DriveProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PropertiesForm.resx">
+      <DependentUpon>PropertiesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateDownloadForm.resx">
+      <DependentUpon>UpdateDownloadForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Update.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blankBox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_file_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatx_folder_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLKsFATXLib\CLKsFATXLib.csproj">
+      <Project>{322FE3FB-B56B-49D7-86DB-4FCF6E912E5A}</Project>
+      <Name>CLKsFATXLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb drive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox hard drive.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb drive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xbox360_015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GNU_GENERAL_PUBLIC_LICENSE.txt" />
+    <Content Include="Main Icon.ico" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\nyancat_fixed.gif" />
+    <None Include="Resources\rainbow4.png" />
+    <None Include="Resources\nyan.gif" />
+    <None Include="Resources\Remove.ico" />
+    <None Include="Resources\Add.ico" />
+    <None Include="Resources\Forward.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\circlepattern-green_LD_small.jpg" />
+    <None Include="Resources\circlepattern-green_LD2.jpg" />
+    <None Include="Resources\circlepattern-green_LD1.jpg" />
+    <None Include="Resources\circlepattern-green_LD.jpg" />
+    <None Include="Resources\Wallpaper3.jpg" />
+    <None Include="Resources\buffalo background.png" />
+    <None Include="Resources\USB.png" />
+    <None Include="Resources\HDD.png" />
+    <None Include="Resources\Backup.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
